@@ -165,7 +165,7 @@ template {
 }
 
 html {
-    background-color: #004D99;
+    background-color: #404040;
     color: #FFFFFF;
 }
 
@@ -175,7 +175,7 @@ html {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #262626;
+    background-color: #1a1a1a;
     font-family: Sans-serif;
 }
 
