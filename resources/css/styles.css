@@ -164,6 +164,11 @@ template {
     display: none;
 }
 
+html {
+    background-color: #004D99;
+    color: #FFFFFF;
+}
+
 /* Navigation bar */
 .navbar {
     list-style-type: none;
@@ -180,7 +185,7 @@ li.navbar {
 }
 
 li.active.navbar {
-    padding: 14px 16px;
+    padding: 14px 20px;
     color: #FFFFFF;
     background-color: #00008B;
 }
@@ -189,7 +194,7 @@ a.navbar {
     display: block;
     color: #FFFFFF;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 20px;
     text-decoration: none;
 }
 
