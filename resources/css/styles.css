@@ -179,6 +179,12 @@ li.navbar {
     float: left;
 }
 
+li.active.navbar {
+    padding: 14px 16px;
+    color: #FFFFFF;
+    background-color: #00008B;
+}
+
 a.navbar {
     display: block;
     color: #FFFFFF;
@@ -188,7 +194,7 @@ a.navbar {
 }
 
 a:hover.navbar {
-    background-color: #00008B;
+    background-color: #595959;
 }
 
 /* Fonts */
