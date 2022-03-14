@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="../../resources/css/styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <title>Linux Package Management</title>
+  <ul class="navbar">
+    <li class="navbar"><a class="navbar" href="../..">Home</a></li>
+    <li class="navbar"><a class="navbar" href="../../articles">Articles</a></li>
+    <li class="navbar"><a class="navbar" href="..">Guides</a></li>
+  </ul>
+</head>
+<body>
+  <h1>Linux Package Management</h1>
+  <p>This one day, you decided to try out Linux. You installed it into your computer and voila! You have Linux installed.
+     <br><br>
+     But wait, you see that everything looks very outdated. Then you realize, you don't know how to manage your
+     applications on Linux. But fear not, this guide is here to help you.</p>
+  <h2>What is a Package Manager?</h2>
+  <p>A package manager is essentially the thing that you use to download software. The method of downloading software
+     using a package manager is a lot more reliable than downloading some random .exe file from a random website.
+     <br><br>
+     Generally, the packages in a Linux distribution's repository are curated by the Linux distribution's maintainers,
+     are open source (unless you download packages from the non-free repository) and are tested by the Linux distribution's QA
+     team before being added to the Linux distribution's package repository.</p>
+  <h2>Package Managers in Linux Distributions</h2>
+  <p>Linux distributions have different package managers. Some of the most popular package managers are:</p>
+  <ul>
+    <li>APT in Debian, Ubuntu, and derivatives.</li>
+    <li>Pacman in Arch, Manjaro, and derivatives.</li>
+    <li>DNF in Fedora, Red Hat Enterprise Linux, and derivatives.</li>
+  </ul>
+  <h2>Using a Linux Package Manager</h2>
+  <p>Using a Linux package manager is very simple. What you have to do is to determine what Linux distribution you are using.
+     If you are using Ubuntu, Linux Mint, Pop!_OS, or Debian, you will be using the APT package manager. If you are using Arch
+     or Manjaro, you will be using the Pacman package manager.</p>
+  <h3>APT Package Manager</h3>
+  <p>Before you use the APT package manager, it it highly advised to run sudo apt update && sudo apt upgrade to update
+     the package list and upgrade outdated packages.</p>
+  <ul>
+    <li>Install packages: sudo apt install &#60;package name&#62;</li>
+    <li>Remove packages: sudo apt remove &#60;package name&#62;</li>
+    <li>Search for a package: apt search &#60;package name&#62;</li>
+    <li>List installed packages: apt list --installed</li>
+  </ul>
+  <h3>Pacman Package Manager</h3>
+  <p>Before you use the Pacman package manager, it is highly advised to run sudo pacman -Syu to update the package list
+     and upgrade outdated packages.</p>
+  <ul>
+    <li>Install packages: sudo pacman -S &#60;package name&#62;</li>
+    <li>Remove packages: sudo pacman -Rs &#60;package name&#62;</li>
+    <li>Search for a package: sudo pacman -Ss &#60;package name&#62;</li>
+    <li>List installed packages: sudo pacman -Qn</li>
+  </ul>
+</body>
+</html>
